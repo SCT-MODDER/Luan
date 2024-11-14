@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market de iPhones</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #0d0d0d;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(90deg, #ff0000, #8b0000);
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0px 4px 8px rgba(255, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #fff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Container geral */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin: 40px auto;
+            max-width: 1300px;
+            padding: 0 20px;
+        }
+
+        /* Cartões */
+        .card {
+            background-color: #111;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.4);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 15px 30px rgba(255, 255, 255, 0.6);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 3px solid #ff0000;
+            transition: transform 0.3s;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+
+        .card h3 {
+            font-size: 1.8rem;
+            margin: 20px 0 10px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .card p {
+            font-size: 1.3rem;
+            margin: 10px 0 20px;
+            text-align: center;
+            color: #ccc;
+        }
+
+        .card button {
+            display: block;
+            width: 80%;
+            margin: 0 auto 20px;
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 0;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0px 4px 10px rgba(255, 0, 0, 0.7);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .card button:hover {
+            background-color: #ff4d4d;
+            transform: scale(1.05);
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            box-shadow: 0px -4px 10px rgba(255, 0, 0, 0.3);
+        }
+
+        footer p {
+            font-size: 1rem;
+            color: #999;
+        }
+
+        footer p span {
+            color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Market de iPhones</h1>
+    </header>
+
+    <div class="container">
+        <!-- iPhone 11 Series -->
+        <div class="card">
+            <a href="https://www.instagram.com/luan_stoque?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 11">
+            </a>
+            <h3>iPhone 11</h3>
+            <p>R$ 3.999,00</p>
+            <a href="https://www.instagram.com/luan_stoque?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><button>Comprar</button></a>
+        </div>
+        <div class="card">
+            <a href="https://www.apple.com/sg/iphone-11-pro" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 11 Pro">
+            </a>
+            <h3>iPhone 11 Pro</h3>
+            <p>R$ 5.499,00</p>
+            <a href="https://www.apple.com/sg/iphone-11-pro" target="_blank"><button>Ver mais</button></a>
+        </div>
+        <div class="card">
+            <a href="https://www.apple.com/sg/iphone-11-pro-max" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 11 Pro Max">
+            </a>
+            <h3>iPhone 11 Pro Max</h3>
+            <p>R$ 6.799,00</p>
+            <a href="https://www.apple.com/sg/iphone-11-pro-max" target="_blank"><button>Ver mais</button></a>
+        </div>
+
+        <!-- iPhone 12 Series -->
+        <div class="card">
+            <a href="https://www.apple.com/sg/iphone-12" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 12">
+            </a>
+            <h3>iPhone 12</h3>
+            <p>R$ 4.599,00</p>
+            <a href="https://www.apple.com/sg/iphone-12" target="_blank"><button>Ver mais</button></a>
+        </div>
+        <div class="card">
+            <a href="https://www.apple.com/sg/iphone-12-pro" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 12 Pro">
+            </a>
+            <h3>iPhone 12 Pro</h3>
+            <p>R$ 6.099,00</p>
+            <a href="https://www.apple.com/sg/iphone-12-pro" target="_blank"><button>Ver mais</button></a>
+        </div>
+        <div class="card">
+            <a href="https://www.apple.com/sg/iphone-12-pro-max" target="_blank">
+                <img src="file:///C:/Users/User/Downloads/R%20(1).jfif" alt="iPhone 12 Pro Max">
+            </a>
+            <h3>iPhone 12 Pro Max</h3>
+            <p>R$ 7.199,00</p>
+            <a href="https://www.apple.com/sg/iphone-12-pro-max" target="_blank"><button>Ver mais</button></a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados © <span>Luan Stoque</span> - 2024</p>
+    </footer>
+</body>
+</html>
